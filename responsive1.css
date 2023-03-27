@@ -1,0 +1,306 @@
+/*untuk tablet*/
+@media (max-width:1000px) {
+    .container_header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header_right a {
+        margin: 20px 30px;
+    }
+
+    .contents1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .who {
+        padding-right: 100px;
+        margin: 20px 0;
+    }
+
+    .contents2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .prods {
+        padding-left: 100px;
+        margin: 20px 0;
+    }
+
+    .contents3 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .cafe {
+        padding-right: 100px;
+        margin: 20px 0;
+    }
+
+    .insta {
+        padding: 0px 70px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .feeds {
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .feeds img {
+        width: 20%;
+        height: 20%;
+    }
+
+    .ask {
+        padding: 0px;
+    }
+
+    .ask p {
+        padding: 0px 100px;
+    }
+
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer_left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .simbol {
+        padding-left: 110px;
+    }
+
+    .container_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .menu_p, .menu_s, .menu_c {
+        padding-left: 110px;
+    }
+
+    .menu_p a, .menu_s a, .menu_c a{
+        padding-left: 20px;
+    }
+}
+
+/*untuk smartphone*/
+@media (max-width:670px) {
+    .container_header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo_ab {
+        padding-left: 30px;
+        width: 50%;
+        height: 50%;
+        margin-bottom: 15px;
+
+    }
+    .header_right a {
+        margin: 0px 20px;
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    .container_top h1 {
+        font-size: 40px;
+    }
+
+    .container_top p {
+        font-size: 16px;
+    }
+
+    .contents1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .weare {
+        width: 200px;
+        height: 250px;
+    }
+
+    .who {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 20px 0;
+    }
+
+    .who h1, .prods h1, .cafe h1 {
+        font-size: 20px;
+    }
+
+    .who p, .prods p, .cafe p {
+        font-size: 12px;
+    }
+
+    .contents2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .prods {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 20px 0;
+    }
+
+    .beverages {
+        width: 200px;
+        height: 200px;
+    }
+
+    .prods a, .cafe a {
+        font-size: 12px;
+    }
+
+    .contents3 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .hangout {
+        width: 250px;
+        height: 250px
+    }
+
+    .cafe {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 20px 0;
+    }
+
+    .insta {
+        padding: 0px 70px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .insta h1 {
+        font-size: 20px;
+    }
+
+    .feeds {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .feed {
+        margin-left: 10px;
+        margin-right: 10px;
+    };
+
+    .ask {
+        padding: 0px;
+    }
+
+    .ask h1 {
+        font-size: 20px;
+    }
+    .ask p {
+        padding: 0px 40px;
+        font-size: 12px;
+    }
+
+    .ask a {
+        font-size: 12px;
+    }
+
+    .container_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer_left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .simbol {
+        padding-left: 10px;
+        width: 50%;
+        height: 50%;
+        margin-top: 25x;
+    }
+
+    .footer_left1 {
+        margin: 0px;
+        padding: 0px 0px 0px 30px;
+    }    
+
+    .mail, .phone {
+        width: 30px;
+        height: 25px;
+    }
+
+    .container_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .menu_p, .menu_s, .menu_c {
+        padding-left: 40px;
+        font-size: 12px;
+    }
+
+    .menu_p a, .menu_s a, .menu_c a{
+        padding-left: 20px;
+        font-size: 12px;
+    }
+}
