@@ -86,7 +86,7 @@
 
     .feeds {
         padding: 0px;
-        margin: 0px 100px;
+        margin: 0px 600px;
 
     }
 
@@ -270,12 +270,11 @@
 
     .feeds {
         margin: 0px;
-        padding: 0px 100px;
+        padding: 0px 60px;
     }
 
     .feed {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin:10px;
     };
 
     .ask {
