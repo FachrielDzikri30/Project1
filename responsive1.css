@@ -86,12 +86,12 @@
 
     .feeds {
         padding: 0px;
-        margin: 0px 60px;
+        margin: 20px 60px;
 
     }
 
     .feed {
-        width:60%;
+        width:30%;
         padding:10px 10px;
         margin:10px 30px;
     }
