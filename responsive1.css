@@ -76,6 +76,11 @@
         margin: 20px 0;
     }
 
+    .findus {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
     .insta {
         padding: 0px 70px;
         display: flex;
@@ -257,12 +262,12 @@
     }
     
      .findus {
-        margin-left: 72px;
-        margin-right: 72px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .insta {
-        padding: 0px 70px;
+        padding: 0px 50px;
         display: flex;
         flex-direction: row;
         text-align: center;
