@@ -93,8 +93,8 @@
     .feeds img{
         width:20%;
         height:20%;
-        padding:10px 10px;
-        margin:10px 10px;
+        padding:0px;
+        margin:10px 5px;
     }
 
     .ask {
