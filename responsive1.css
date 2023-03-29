@@ -1,21 +1,38 @@
 /*untuk tablet*/
 @media (max-width:1000px) {
-    .container_header {
-        display: flex;
+
+    .container_header{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-        margin-left: 50px;
     }
 
     .header_left {
-        margin-left: 35px;
-        margin-bottom: 20px;
+        margin-left: 40px;
     }
 
-    .header_right a {
-        margin: 20px 30px;
+    .header_right {
+        margin-left: 70px;
+        margin-right: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .header_right a{
+        font-size: 20px;
+    }
+
+    .top {
+        margin: 150px;
+    }
+
+    .top h1{
+        font-size: 52px;
+    }
+
+    .top p{
+        font-size: 24px;
+        margin-top: 20px;
     }
 
     .contents1 {
@@ -124,34 +141,50 @@
 
 /*untuk smartphone*/
 @media (max-width:670px) {
-    .container_header {
-        display: flex;
+    header {
+        height: 450px;
+        margin-bottom: 50px;
+    }
+
+    .header_wrapper {
+        height: 450px;
+    }
+    .container_header{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        margin-left: 10px;
     }
 
     .header_left {
         margin-left: 40px;
-        margin-bottom: 10px;
-
-    }
-    .header_right a {
-        margin: 0px 20px;
-        font-size: 15px;
-        padding: 0px;
+        margin-top: 20px;
+        width: 135px;
+        height: 27px;   
     }
 
-    .container_top h1 {
-        font-size: 40px;
+    .header_right {
+        margin-left: 70px;
+        margin-right: 0;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
 
-    .container_top p {
+    .header_right a{
+        font-size: 12px;
+    }
+
+    .top {
+        margin: 98px 52px 98px 52px;
+    }
+
+    .top h1{
+        font-size: 36px;
+    }
+
+    .top p{
         font-size: 16px;
+        margin-top: 10px;
     }
-
     .contents1 {
         display: flex;
         flex-direction: column;
