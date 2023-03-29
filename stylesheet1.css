@@ -221,7 +221,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 0 250px;
+    padding: 0 200px;
     justify-content: center;
     max-width: 100%;
 }
