@@ -90,9 +90,9 @@
 
     }
 
-    .feeds img {
-        width: 20%;
-        height: 20%;
+    .feed {
+        padding:0px;
+        margin:0px
     }
 
     .ask {
@@ -274,7 +274,8 @@
     }
 
     .feed {
-        margin:10px;
+        padding:0px;
+        margin:0px;
     };
 
     .ask {
